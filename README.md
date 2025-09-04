@@ -63,11 +63,14 @@ weexBot.config.setHoldTime(3);    // Set position hold time to 3 minutes
 
 ```javascript
 const CONFIG = {
-    symbol: 'BTC-USDT',
-    leverage: 50,           // Leverage (needs to be set manually in the UI)
-    positionAmount: 10,     // Amount per order (USD)
-    holdTime: 5 * 60 * 1000, // Position hold time (ms)
-    volumeTarget: 1000000    // Target volume
+   symbol: 'BTC-USDT',
+   positionAmount: 1500,     // Starting with a small Volume for testing
+   holdTime: 0,            // Will be set randomly each time a position is opened
+   holdTimeMin: 6 * 60 * 1000, // Minimum 6 minutes
+   holdTimeMax: 7 * 60 * 1000, // Maximum 7 minutes
+   volumeTarget: 50000000,    // Target volume
+   orderType: 'long_only',  // Can be: 'long_only', 'short_only', 'long_and_short'
+   lastOrderType: null      // To track the last order type placed
 };
 ```
 
