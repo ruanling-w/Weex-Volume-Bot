@@ -4,6 +4,10 @@
 
 This toolkit provides JavaScript scripts that run in the browser console to automatically generate trading volume on Weex exchange. The scripts work directly with the Weex user interface and do not require API keys.
 
+## Referral Bonus
+Join Weex today using my invitation link: https://weex.com/register?vipCode=26pyu
+By registering through this link, both you and I can earn up to 260 USDT in futures trading bonuses once you complete simple tasks. It’s a great way to start trading with extra rewards!
+
 ## Versions
 
 **weex_console_bot_v3.js** - Latest version with significant reliability improvements
